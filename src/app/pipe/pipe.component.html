@@ -1,0 +1,10 @@
+<p>{{title | uppercase}}</p>
+<p>{{l | lowercase}}</p>
+<ul>
+    <li *ngFor="let c of arrCurrency">{{c | currency:'ILS'}}</li>
+</ul>
+<h2>{{d | date:'medium'}}</h2>
+<h2>{{d | date:'shortTime'}}</h2>
+<h2>{{d | date:'long'}}</h2>
+<h2>{{d | date:'short'}}</h2>
+<h2>{{d | date:'hh:mm'}}</h2>
